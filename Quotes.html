@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Блок с тенью</title>
+    <style>
+     div{
+         margin: 30px 150px;
+         width: 360px;
+
+     }
+     div:before, div:after{
+         font-size: 3em;
+         color: darkred;
+         padding: 10px;
+     }
+     div:before{
+         content: '<<';
+         float: left;
+         margin-top: -0.7em;
+     }
+     div:after{
+         content: '>>';
+         float:right;
+         margin-top: -1.5em;
+            }
+     p{
+         margin-left: 73px;
+     }
+
+    </style>
+</head>
+<body>
+
+<div>
+    Не ошибается лишь тот кто ничего не делает! Не бойтесь ошибаться
+ - бойтесь повторять ошибки
+ <p>Теодор Рузвельт</p>
+</div>
+
+</body>
+</html>
